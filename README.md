@@ -81,6 +81,7 @@ dotnet run
   ---
 	## 🟢 CI workflow Build Success
 
-	![CI Success](ci-sucess.png)
+	<img width="1440" height="900" alt="ci-sucess" src="https://github.com/user-attachments/assets/444fe043-91eb-46e2-9e7d-349428c1ed41" />
+
 
   
