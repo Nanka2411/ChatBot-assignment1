@@ -45,5 +45,5 @@ Console.WriteLine("5. public wifi");
 // Inform the user how to exit the chatbot
 Console.WriteLine("Type 'exit' to close the chatbot.");
 
-// Start the chatbot session, passing in the User object
+// starts the chatbot session, passing in the User object
 Chat.StartChat(user);
