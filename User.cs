@@ -2,6 +2,6 @@
 public class User
 {
     // Property to store the user's name
-    // { get; set; } allows reading and writing the name
+    // { get; set; } allows  reading and writing the name
     public string Name { get; set; }
 }

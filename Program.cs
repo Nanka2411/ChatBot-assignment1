@@ -14,7 +14,7 @@ VoiceGreeting.PlayGreeting();
 // Ask the user for their name
 Console.ForegroundColor = ConsoleColor.Yellow; // Set text color for input prompt
 Console.Write("\nEnter your name: ");
-Console.ResetColor(); // Reset text color back to default
+Console.ResetColor(); // Resets the text color back to default
 
 // Read user input for name
 string nameInput = Console.ReadLine();
