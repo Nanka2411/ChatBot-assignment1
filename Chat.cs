@@ -5,7 +5,7 @@ class Chat
 {
     public static void StartChat(User user)
     {
-        // Variable to remember the last topic user asked about (used for "more" requests)
+        // variable to remember the last topic user asked about (used for "more" requests)
         string lastTopic = "";
 
         // Infinite loop to keep chat running until user exits
