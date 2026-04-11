@@ -80,8 +80,9 @@ dotnet run
 	10.	Final cleanup and documentation updates
   ---
 	## 🟢 CI workflow Build Success
+<img width="1440" height="900" alt="ci-sucess" src="https://github.com/user-attachments/assets/24b8e2bb-691d-49a5-a3e3-e5a01f3636fe" />
 
-	<img width="1440" height="900" alt="ci-sucess" src="https://github.com/user-attachments/assets/444fe043-91eb-46e2-9e7d-349428c1ed41" />
+
 
 
   
