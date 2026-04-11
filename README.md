@@ -79,6 +79,8 @@ dotnet run
 	9.	Integrated voice greeting feature
 	10.	Final cleanup and documentation updates
   ---
-	## 🚀 CI Pipeline Result
+	## 🟢 CI workflow Build Success
+
+	![CI Success](ci-sucess.png)
 
   
