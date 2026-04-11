@@ -38,6 +38,7 @@ The chatbot uses keyword detection to respond to different cybersecurity topics 
 - Visual Studio 2022 or VS Code
 
 ### Run Commands:
+
 ``bash
 dotnet restore
 dotnet build
@@ -45,6 +46,7 @@ dotnet run
 ---
 
 🎯 How the Chatbot Works
+
 	1.	User enters their name 👤
 	2.	Bot greets user with message + voice 🔊
 	3.	User types a question or keyword 💬
@@ -54,6 +56,7 @@ dotnet run
   ---
 
   🧾 Example Inputs
+  
 	•	password safety
 	•	phishing
 	•	safe browsing
@@ -64,6 +67,7 @@ dotnet run
   ---
 
   📈 Git Commit History 
+  
 	1.	Initial project setup with console application structure
 	2.	Added user input and greeting system
 	3.	Implemented chatbot keyword detection logic
