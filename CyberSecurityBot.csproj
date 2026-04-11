@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Audio\cyber.wav.wav" />
+    <None Remove="Audio\CyberSecurity audio %28online-audio-converter.com%29.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Audio\cyber.wav.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.3.0" />
+    <PackageReference Include="System.Windows.Extensions" Version="10.0.5" />
+  </ItemGroup>
+
+</Project>
