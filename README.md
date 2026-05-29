@@ -282,11 +282,17 @@ Error Handling	Try-catch blocks for voice greeting
 🟢 Application Features Demonstrated
 
 ✅ GUI Development using WPF
+
 ✅ Event-driven programming
+
 ✅ File and media handling
+
 ✅ Data structures using dictionaries
+
 ✅ Object-oriented programming principles
+
 ✅ User interaction handling
+
 ✅ Conversational chatbot logic
 
 ⸻
