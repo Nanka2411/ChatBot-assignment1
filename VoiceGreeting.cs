@@ -21,7 +21,7 @@ namespace CyberSecurityChatbotGUI
                 // The file path points to the stored WAV file in the Assets folder
                 SoundPlayer player = new SoundPlayer("Assets/cyber.wav.wav");
 
-                // Play the sound asynchronously (does not freeze the UI)
+                // Play the sound asynchronously (does not freeze the UI).
                 player.Play();
             }
             catch
