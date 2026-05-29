@@ -1,6 +1,6 @@
 ﻿namespace CyberSecurityChatbotGUI
 {
-    // PURPOSE: Stores user information for personalisation
+    // PURPOSE: Stores user information for personalisation.
     public class User
     {
         // User's name
