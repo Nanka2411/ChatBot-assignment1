@@ -309,9 +309,9 @@ The application includes:
 
 ⸻
 
-👨‍💻 Developer Notes
+👨‍💻 
 
-This chatbot was created as an educational cybersecurity awareness system to help users understand online safety practices in a simple and interactive way.
+This chatbot is created as an educational cybersecurity awareness system to help users understand online safety practices in a simple and interactive way.
 
 The chatbot focuses on beginner-friendly explanations and encourages safe online behavior through conversational learning 
 
