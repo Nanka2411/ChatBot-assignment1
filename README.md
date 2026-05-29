@@ -83,7 +83,7 @@ dotnet run
 <img width="1440" height="900" alt="ci-sucess" src="https://github.com/user-attachments/assets/24b8e2bb-691d-49a5-a3e3-e5a01f3636fe" />
 
 ---
-🛡️ CyberPal – Cybersecurity Awareness Chatbot (Part 2)
+# 🛡️ CyberPal – Cybersecurity Awareness Chatbot(Part 2)
 
 📌 Project Overview
 
@@ -307,7 +307,7 @@ The application includes:
 
 This chatbot was created as an educational cybersecurity awareness system to help users understand online safety practices in a simple and interactive way.
 
-The chatbot focuses on beginner-friendly explanations and encourages safe online behavior through conversational learni
+The chatbot focuses on beginner-friendly explanations and encourages safe online behavior through conversational learning 
 
 
 
