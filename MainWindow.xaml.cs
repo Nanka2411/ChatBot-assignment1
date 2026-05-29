@@ -48,7 +48,7 @@ namespace CyberSecurityChatbotGUI
             // Displays the chatbot response
             AddMessage("Bot", response);
 
-            // Clears the textbox after sending the message
+            // Clears the textbox after sending the message.
             UserInput.Clear();
         }
 
