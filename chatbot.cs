@@ -4,11 +4,18 @@ namespace CyberSecurityChatbotGUI
 {
     public class Chatbot
     {
+        // This class handles simple chatbot responses using keyword detection
+        // to simulate basic NLP (Natural Language Processing).
+
         public string GetResponse(string input)
         {
+            // Converts user input to lowercase to make keyword matching case-insensitive
             input = input.ToLower();
 
             // ===== NLP SIMULATION (KEYWORD DETECTION) =====
+            // Each condition checks for specific cybersecurity-related keywords
+            // and returns an appropriate educational response.
+
             if (input.Contains("phishing"))
                 return "Phishing is when attackers trick you into giving personal information.";
 
@@ -27,6 +34,7 @@ namespace CyberSecurityChatbotGUI
             if (input.Contains("help"))
                 return "You can ask about tasks, quiz, phishing, passwords, or malware.";
 
+            // Default response when no keywords are detected
             return "I didn't fully understand that. Try asking about cybersecurity topics.";
         }
     }
