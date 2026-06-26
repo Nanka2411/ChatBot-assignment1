@@ -1,7 +1,8 @@
-﻿// Represents a user interacting with the chatbot
-public class User
+﻿namespace CyberSecurityChatbotGUI
 {
-    // Property to store the user's name
-    // { get; set; } allows  reading and writing the name
-    public string Name { get; set; }
+    public class User
+    {
+        public string Name { get; set; }
+        public string Interest { get; set; }
+    }
 }
