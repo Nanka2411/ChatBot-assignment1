@@ -5,14 +5,22 @@ namespace CyberSecurityChatbotGUI
 {
     public class QuizManager
     {
+        // Stores all quiz questions, correct answers, and explanations
         private List<(string question, string answer, string explanation)> questions;
+
+        // Tracks the current question index
         private int index = 0;
+
+        // Tracks the user's score
         private int score = 0;
 
+        // Constructor: initializes the quiz questions
         public QuizManager()
         {
             questions = new List<(string, string, string)>
             {
+                // Each tuple contains: question, correct answer, explanation
+
                 ("What is phishing? (a) fishing (b) scam emails (c) hacking tools", "b",
                     "Phishing is fake emails used to steal information."),
 
@@ -45,6 +53,7 @@ namespace CyberSecurityChatbotGUI
             };
         }
 
+        // Returns the next quiz question or null if quiz is finished
         public string GetNextQuestion()
         {
             if (index >= questions.Count)
@@ -53,25 +62,34 @@ namespace CyberSecurityChatbotGUI
             return questions[index].question;
         }
 
+        // Checks the user's answer, gives feedback, and updates score
         public string CheckAnswer(string input)
         {
+            // Gets correct answer for current question
             string correct = questions[index].answer;
 
+            // Determines if user's answer matches correct answer
             bool isCorrect =
                 input.Contains(correct.ToLower()) ||
                 input.Trim().ToLower() == correct;
 
+            // Builds feedback message
             string feedback = isCorrect ? "Correct! " : "Wrong! ";
 
+            // Updates score if answer is correct
             if (isCorrect)
                 score++;
 
+            // Adds explanation for learning
             feedback += questions[index].explanation;
 
+            // Moves to next question
             index++;
+
             return feedback;
         }
 
+        // Returns final score and performance message
         public string GetFinalScore()
         {
             return $"Final Score: {score}/{questions.Count}\n" +
@@ -79,6 +97,7 @@ namespace CyberSecurityChatbotGUI
                     "Keep learning to stay safe online!");
         }
 
+        // Resets quiz so it can be played again
         public void Reset()
         {
             index = 0;
